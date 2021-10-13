@@ -1,5 +1,6 @@
 namespace BlazorApp3.Pages;
 
+[Route("fetchdata")]
 public partial class FetchData
 {
     [Inject] private WeatherService? WeatherService { get; set; }

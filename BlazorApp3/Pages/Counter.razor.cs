@@ -2,6 +2,7 @@ using Microsoft.JSInterop;
 
 namespace BlazorApp3.Pages;
 
+[Route("counter")]
 public partial class Counter
 {
     [Inject] private CounterState? CounterState { get; set; }

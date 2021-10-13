@@ -1,10 +1,5 @@
-﻿@page "/counter"
-
-<PageTitle>Counter</PageTitle>
-
+﻿<PageTitle>Counter</PageTitle>
 <h1>Counter</h1>
-
 <p role="status">Current count: @(CounterState == null ? 0 : CounterState.CurrentCount.ToString())</p>
-
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 <button class="btn btn-primary special-button" @onclick="CounterAlert">Collocation Test</button>
