@@ -8,11 +8,4 @@ Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
 
-<button @onclick="JsAlert">Alert</button>
-
-@code {
-    private void JsAlert()
-    {
-        JsInterop.Alert("Test");
-    }
-}
+<button class="btn btn-primary" @onclick="JsAlert">Alert</button>
